@@ -19,7 +19,6 @@ set(PROJECT_SOURCES
         grasshopper_cipher.cpp
         grasshopper_cipher.h
         mainwindow.ui
-        C:/Users/vskri/Documents/MAI_Practica_2025/Program_on_CPP/app.rc
 )
 
 if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
@@ -28,6 +27,7 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         ${PROJECT_SOURCES}
         grasshopper_cipher.cpp
         grasshopper_cipher.h
+        ../app.rc
     )
 # Define target properties for Android with Qt 6 as:
 #    set_property(TARGET Grasshopper_cipher APPEND PROPERTY QT_ANDROID_PACKAGE_SOURCE_DIR
